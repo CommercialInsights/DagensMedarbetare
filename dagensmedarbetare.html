@@ -366,46 +366,67 @@ footer{background:#6B3A9E;padding:28px 64px;display:flex;justify-content:space-b
         <div class="format-step-desc">SEO · Google · AI-synlig</div>
       </div>
     </div>
-    <div class="devices-grid reveal">
-      <div class="device-laptop">
-        <div class="laptop-screen">
-          <div class="laptop-topbar">
-            <div class="laptop-dot" style="background:#ff5f57"></div>
-            <div class="laptop-dot" style="background:#ffbd2e"></div>
-            <div class="laptop-dot" style="background:#28c840"></div>
-          </div>
-          <div style="display:flex;justify-content:center;">
-          <div style="width:260px;background:#1a1a2e;border-radius:20px;border:2px solid #374151;padding:12px 8px;box-shadow:0 20px 60px rgba(0,0,0,0.5);">
-            <div style="width:6px;height:6px;background:#333;border-radius:50%;margin:0 auto 8px;"></div>
-            <div style="border-radius:10px;overflow:hidden;">
-              <img src="spotify.png" alt="Spotify" style="width:100%;display:block;">
-            </div>
-            <div style="width:40px;height:3px;background:#333;border-radius:2px;margin:10px auto 0;"></div>
-          </div>
-        </div>
-        </div>
-        <div class="laptop-base"></div>
-        <div class="laptop-stand"></div>
-        <div class="device-label"><svg><use href="#s-google"/></svg> Webb + SEO</div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:20px;align-items:end;margin-top:0;">
+
+  <!-- LAPTOP — Webb -->
+  <div style="display:flex;flex-direction:column;align-items:center;">
+    <div style="background:#111827;border-radius:8px 8px 0 0;border:2px solid #374151;border-bottom:none;overflow:hidden;width:100%;">
+      <div style="height:20px;background:#1f2937;border-bottom:1px solid #374151;display:flex;align-items:center;padding:0 8px;gap:5px;">
+        <div style="width:7px;height:7px;border-radius:50%;background:#ff5f57;"></div>
+        <div style="width:7px;height:7px;border-radius:50%;background:#ffbd2e;"></div>
+        <div style="width:7px;height:7px;border-radius:50%;background:#28c840;"></div>
       </div>
-      <div class="device-phone">
-        <div class="phone-outer">
-          <div class="phone-notch"></div>
-          <div class="phone-screen"><img src="tiktok1.png" alt="TikTok"></div>
-          <div class="phone-home"></div>
-        </div>
-        <div class="device-label"><svg><use href="#s-tiktok"/></svg> TikTok</div>
-      </div>
-      <div class="device-phone">
-        <div class="phone-outer">
-          <div class="phone-notch"></div>
-          <div class="phone-screen"><img src="tiktok2.png" alt="TikTok"></div>
-          <div class="phone-home"></div>
-        </div>
-        <div class="device-label"><svg><use href="#s-tiktok"/></svg> TikTok</div>
-      </div>
+      <img src="podd.png" alt="Webb" style="width:100%;display:block;height:200px;object-fit:cover;object-position:top;">
+    </div>
+    <div style="width:108%;background:#1f2937;height:8px;border-radius:0 0 4px 4px;border:2px solid #374151;border-top:none;"></div>
+    <div style="width:25%;height:4px;background:#111827;border-radius:0 0 3px 3px;"></div>
+    <div style="margin-top:10px;font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:#9a85a8;display:flex;align-items:center;gap:5px;">
+      <svg width="10" height="10"><use href="#s-google"/></svg> Webb
     </div>
   </div>
+
+  <!-- TABLET — LinkedIn -->
+  <div style="display:flex;flex-direction:column;align-items:center;">
+    <div style="background:#1a1a2e;border-radius:12px;border:2px solid #374151;padding:8px;box-shadow:0 12px 40px rgba(0,0,0,0.4);width:100%;">
+      <div style="border-radius:8px;overflow:hidden;">
+        <img src="linkedin.png" alt="LinkedIn" style="width:100%;display:block;height:200px;object-fit:cover;object-position:top;">
+      </div>
+    </div>
+    <div style="margin-top:10px;font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:#9a85a8;display:flex;align-items:center;gap:5px;">
+      <svg width="10" height="10"><use href="#s-linkedin"/></svg> LinkedIn
+    </div>
+  </div>
+
+  <!-- PHONE — Spotify -->
+  <div style="display:flex;flex-direction:column;align-items:center;">
+    <div style="background:#111;border-radius:24px;border:2px solid #2a2a2a;padding:10px 6px;box-shadow:0 16px 48px rgba(0,0,0,0.5);width:75%;margin:0 auto;">
+      <div style="width:36px;height:4px;background:#222;border-radius:2px;margin:0 auto 8px;"></div>
+      <div style="border-radius:16px;overflow:hidden;">
+        <img src="spotify.png" alt="Spotify" style="width:100%;display:block;height:200px;object-fit:cover;object-position:top;">
+      </div>
+      <div style="width:28px;height:3px;background:#333;border-radius:2px;margin:8px auto 0;"></div>
+    </div>
+    <div style="margin-top:10px;font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:#9a85a8;display:flex;align-items:center;gap:5px;">
+      <svg width="10" height="10"><use href="#s-spotify"/></svg> Spotify
+    </div>
+  </div>
+
+  <!-- PHONE — TikTok -->
+  <div style="display:flex;flex-direction:column;align-items:center;">
+    <div style="background:#111;border-radius:24px;border:2px solid #2a2a2a;padding:10px 6px;box-shadow:0 16px 48px rgba(0,0,0,0.5);width:75%;margin:0 auto;">
+      <div style="width:36px;height:4px;background:#222;border-radius:2px;margin:0 auto 8px;"></div>
+      <div style="border-radius:16px;overflow:hidden;">
+        <img src="tiktok1.png" alt="TikTok" style="width:100%;display:block;height:200px;object-fit:cover;object-position:top;">
+      </div>
+      <div style="width:28px;height:3px;background:#333;border-radius:2px;margin:8px auto 0;"></div>
+    </div>
+    <div style="margin-top:10px;font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:#9a85a8;display:flex;align-items:center;gap:5px;">
+      <svg width="10" height="10"><use href="#s-tiktok"/></svg> TikTok
+    </div>
+  </div>
+
+</div>
+</div>
 </section>
 
 <!-- TOPICS -->
