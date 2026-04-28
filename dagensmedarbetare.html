@@ -45,7 +45,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(139,77,181,0
 
 /* Channel logos — free, no boxes */
 .hero-channels{display:flex;gap:20px;flex-wrap:wrap;align-items:center;}
-.hero-ch{display:flex;align-items:center;gap:8px;font-size:14px;color:rgba(255,255,255,0.6);}
+.hero-ch{display:flex;align-items:center;gap:8px;font-size:14px;color:rgba(255,255,255,0.6);text-decoration:none;transition:opacity 0.2s;}.hero-ch:hover{opacity:0.7;}
 .hero-ch svg{width:28px;height:28px;flex-shrink:0;}
 .hero-ch-dm svg{width:auto;height:16px;filter:brightness(0) invert(0.6);}
 
@@ -240,12 +240,12 @@ footer{background:#6B3A9E;padding:28px 64px;display:flex;justify-content:space-b
     </div>
     <!-- Free channel logos, no boxes -->
     <div class="hero-channels">
-      <div class="hero-ch"><svg><use href="#s-spotify"/></svg> Spotify</div>
-      <div class="hero-ch"><svg><use href="#s-apple"/></svg> Apple</div>
-      <div class="hero-ch"><svg><use href="#s-yt"/></svg> YouTube</div>
-      <div class="hero-ch"><svg><use href="#s-tiktok"/></svg> TikTok</div>
-      <div class="hero-ch"><svg><use href="#s-linkedin"/></svg> LinkedIn</div>
-      <div class="hero-ch"><svg><use href="#s-google"/></svg> Webb</div>
+      <a href="https://open.spotify.com/episode/7ynlVOvqnsDckwGUcRgT6A?si=tVYoDsmuTGyxPYWgFofuiQ" target="_blank" class="hero-ch"><svg><use href="#s-spotify"/></svg> Spotify</a>
+      <a href="https://podcasts.apple.com/se/podcast/dagens-medarbetare/id1559661671" target="_blank" class="hero-ch"><svg><use href="#s-apple"/></svg> Apple</a>
+      <a href="https://www.youtube.com/channel/UCsMVPsHcj2cMwKS1fJEaYtw" target="_blank" class="hero-ch"><svg><use href="#s-yt"/></svg> YouTube</a>
+      <a href="https://www.tiktok.com/@dagensmedarbetare" target="_blank" class="hero-ch"><svg><use href="#s-tiktok"/></svg> TikTok</a>
+      <a href="https://www.linkedin.com/company/dagensmedarbetare" target="_blank" class="hero-ch"><svg><use href="#s-linkedin"/></svg> LinkedIn</a>
+      <a href="https://dagensmedarbetare.se" target="_blank" class="hero-ch"><svg><use href="#s-google"/></svg> Webb</a>
     </div>
   </div>
   <div class="hero-right" style="display:flex;align-items:center;justify-content:center;background:#8B4DB5;padding:60px 40px;">
